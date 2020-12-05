@@ -17,7 +17,6 @@ body {
 }
 .texts {
   margin-top: 10px;
-  border: 1px solid red;
 }
 img {
   width: 200px;
@@ -65,7 +64,6 @@ h1 {
   height: 80px;
 }
 input {
-  border: 1px solid #f24e38;
   border-radius: 4px;
 }
 
@@ -73,6 +71,44 @@ input {
   .madLibsEdit
   .previewPos,.texts {
     width: 60em;
+    display: flex;
+    flex-direction: column;
+ }
+ .pb-md-4, .py-md-4 {
+  margin: 0;
+  margin-left: -22px;
+}
+}
+
+@media only screen and (max-width: 576px) {
+  .madLibsEdit
+  .previewPos,.texts {
+    width: 60em;
+    display: flex;
+    flex-direction: column;
+ }
+ .pb-md-4, .py-md-4 {
+  margin: 0;
+  margin-left: -22px;
+}
+}
+
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+  .madLibsEdit
+  .previewPos,.texts {
+    width: 60em;
+    display: flex;
+    flex-direction: column;
+ }
+ .pb-md-4, .py-md-4 {
+  margin: 0;
+  margin-left: -22px;
+}
+}
+
+@media only screen and (max-width: 1410px) and (min-width: 1100px) {
+  .madLibsEdit
+  .previewPos,.texts {
     display: flex;
     flex-direction: column;
  }
